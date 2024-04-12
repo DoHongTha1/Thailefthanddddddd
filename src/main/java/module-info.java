@@ -10,6 +10,7 @@ module com.example.thailefthanddddddd {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires com.google.gson;
 
     opens com.example.thailefthanddddddd to javafx.fxml;
     exports com.example.thailefthanddddddd;

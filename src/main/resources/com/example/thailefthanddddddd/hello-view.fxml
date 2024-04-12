@@ -13,41 +13,46 @@
 
 <Pane fx:id="loginPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thailefthanddddddd.HelloController">
     <children>
-        <Label layoutX="8.0" layoutY="159.0" prefHeight="20.0" prefWidth="72.0" text="Tài khoản :">
+        <Label layoutX="8.0" layoutY="211.0" prefHeight="20.0" prefWidth="72.0" text="Tài khoản :">
             <font>
                 <Font size="14.0" />
             </font>
         </Label>
         <AnchorPane layoutX="350.0" layoutY="67.0" prefHeight="200.0" prefWidth="200.0">
             <children>
-                <AnchorPane layoutX="-97.0" layoutY="108.0" prefHeight="223.0" prefWidth="257.0">
+                <AnchorPane layoutX="-95.0" layoutY="-60.0" prefHeight="388.0" prefWidth="341.0">
                     <children>
-                        <ImageView fitHeight="242.0" fitWidth="344.0" layoutY="-68.0" pickOnBounds="true" preserveRatio="true">
-                            <image>
-                                <Image url="@img/human-2.jpg" />
-                            </image>
-                        </ImageView>
+                  <ImageView fitHeight="400.0" fitWidth="341.0" layoutX="7.0" layoutY="-7.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@img/quan lu.jpg" />
+                     </image>
+                  </ImageView>
                     </children>
                 </AnchorPane>
             </children>
         </AnchorPane>
-        <Label layoutX="8.0" layoutY="190.0" prefHeight="20.0" prefWidth="72.0" text="Mật khẩu :">
+        <Label layoutX="8.0" layoutY="260.0" prefHeight="20.0" prefWidth="72.0" text="Mật khẩu :">
             <font>
                 <Font size="14.0" />
             </font>
         </Label>
-        <TextField fx:id="tfUsername" layoutX="80.0" layoutY="157.0" />
-        <Button layoutX="110.0" layoutY="233.0" mnemonicParsing="false" onAction="#login" text="Đăng nhập">
+        <TextField fx:id="tfUsername" layoutX="80.0" layoutY="208.0" />
+        <Button layoutX="111.0" layoutY="296.0" mnemonicParsing="false" onAction="#login" text="Đăng nhập">
             <font>
                 <Font size="14.0" />
             </font>
         </Button>
-        <Hyperlink layoutX="106.0" layoutY="299.0" text="Quên mật khẩu?" />
-        <Label layoutX="128.0" layoutY="23.0" prefHeight="31.0" prefWidth="365.0" text="Quản lý nhân sự">
+        <Hyperlink layoutX="106.0" layoutY="341.0" text="Quên mật khẩu?" />
+      <PasswordField fx:id="tfPassword" layoutX="80.0" layoutY="257.0" />
+      <ImageView fitHeight="97.0" fitWidth="87.0" layoutX="90.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/hinhnhan (1).png" />
+         </image>
+      </ImageView>
+        <Label layoutX="42.0" layoutY="14.0" prefHeight="77.0" prefWidth="223.0" text="Quản lý nhân sự">
             <font>
-                <Font size="48.0" />
+                <Font name="Candara Bold" size="27.0" />
             </font>
         </Label>
-      <PasswordField fx:id="tfPassword" layoutX="80.0" layoutY="188.0" />
     </children>
 </Pane>
